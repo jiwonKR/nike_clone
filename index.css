@@ -1,0 +1,200 @@
+
+
+*{
+  font-family: Montserrat;
+}
+
+
+  .marquee-wrap {
+    width: 500px;
+    height: 20px;
+    border: 1px solid #fa0000;
+    overflow: hidden;
+  }
+
+
+.firstContainer{
+  border: 3px solid lightgreen;
+  background-color: #DFDFDF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+} 
+
+.logo{
+  border: 1px solid red;
+  display: flex;
+}
+
+.logo a{
+  margin: 0px 10px;
+}
+
+.firstNav{
+  border:1px solid orange;
+  display: flex;
+  flex-direction: row;
+}
+
+.firstNav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.firstNav ul li{
+ list-style: none;
+ margin: 0px 10px;
+}
+
+
+
+.logo .firstNav{
+  padding: 10px;
+}
+
+.secondContainer{
+border: 3px solid lightgreen;
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.nikeLogo{
+  border: 1px solid orange;
+}
+
+.likesShop_icon{
+  border: 1px solid orange;
+}
+
+
+.secondNav ul{
+  display: flex;
+  flex-direction: row;
+   border: 1px solid orange;
+  font-size: 30px;
+  list-style: none;
+  
+}
+
+.secondNav ul li{
+  margin: 0px 13px;
+}
+
+.secondNav ul span{
+  padding: 0px 13px;
+}
+
+.searchLikes{
+  display: flex;
+  flex-direction: row;
+}
+
+.likesShop_icon svg{
+  padding: 30px 5px;
+}
+
+#slider{
+  border: 3px solid lightgreen;
+  margin: 10px;
+  
+}
+
+.slides{
+  border: 1px solid orange;
+  margin: 10px;
+  display: block;
+  justify-content: space-between;
+ 
+}
+ 
+
+.header-position{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid lightgreen;
+  margin: 10px;
+}
+
+.wall-header{
+  border:1px solid orange;
+}
+
+.header-nav{
+  border: 1px solid orange;
+}
+
+.thirdContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-betweem;
+}
+
+.leftSideBar{
+  border: 3px solid lightgreen;
+  margin: 10px;
+}
+
+.leftmenu{
+  border: 1px solid orange;
+}
+
+.photowall{
+  border: 3px solid lightgreen;
+  margin: 10px;
+}
+
+.footerContainer{
+  border: 3px solid lightgreen;
+  margin: 10px;
+}
+
+.firstFootMenu{
+  border: 1px solid orange;
+}
+
+.secondFootMenu{
+  border: 1px solid orange;
+}
+.thirdFootMenu{
+  border: 1px solid orange;
+}
+.FourthFootMenu{
+  border: 1px solid orange;
+}
+
+
+.footerMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+/* 쇼핑몰 자동배너 */
+
+
+
+#slide {
+    width: 1024px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 8000px;
+    height: 100%;
+}
+
+#slider .slide {
+    float: left;
+    width: 1024px;
+    height: 500px;
+}
+
+
+
